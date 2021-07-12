@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { buildFeedbackPath, extractFeedback } from '../api/feedback';
+import { buildFeedbackPath, extractFeedback } from '../api/feedback/index';
 
 function FeedbackPage(props) {
   const [feedbackData, setFeedbackData] = useState();
